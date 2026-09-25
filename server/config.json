@@ -1,0 +1,16 @@
+{
+  "_comment": "Edit paths for your machine. Forward slashes work on Windows. Keys starting with _ are ignored.",
+  "wrf_glob": "D:/HPC-backup/wrfout_d02_*",
+  "aws_files": ["C:/Users/NESAC/OneDrive/Documents/Rainfall_Data_September_2026.xlsx"],
+  "_gpm_note": "Folder holding the IMERG half-hourly HDF5/nc4 files (searched recursively). CHANGE THIS.",
+  "gpm_dir": "D:/GPM/IMERG",
+  "gpm_glob": "**/*3IMERG*",
+  "_bfs_note": "Folder holding the BFS GeoTIFFs (searched recursively). CHANGE THIS. Set bfs_date_offset_days to 1 if a file dated D holds rain for D 03Z -> D+1 03Z.",
+  "bfs_dir": "D:/BFS",
+  "bfs_glob": "**/*.tif*",
+  "bfs_date_offset_days": 0,
+  "aws_blank_is_zero": false,
+  "gpm_min_fraction": 1.0,
+  "day_end_hour_utc": 3,
+  "station_sampling": "nearest"
+}

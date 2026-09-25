@@ -1,0 +1,6 @@
+{
+  "name": "NER Meteorological Validation Dashboard",
+  "description": "Validation and performance evaluation dashboard comparing WRF model forecasts with BFS IMD, GPM satellite, and ground AWS observational data across North-East India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
